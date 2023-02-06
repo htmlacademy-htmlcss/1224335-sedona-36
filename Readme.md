@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ruslan Minkailov](https://up.htmlacademy.ru/htmlcss/36/user/1224335).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Попов](https://up.htmlacademy.ru/htmlcss/36/user/78239).
 
 ---
 
