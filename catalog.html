@@ -5,6 +5,90 @@
     <title>Каталог</title>
   </head>
   <body>
-
+    <header class="header-main">
+      <img class="logo-mini" src="" alt="Мини логотип Седоны">
+      <nav class="navig">
+        <ul class="navig-list">
+          <li class="navig-item">
+            <a class="navig-link" href="index.html">Главная</a>
+          </li>
+          <li class="navig-item">
+            <a class="navig-link" href="#">О нас</a>
+          </li>
+          <li class="navig-item">
+            <a class="navig-link navig-link-here" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navig-list nav-user">
+          <li class="navig-item">
+            <a class="navig-link" href="#">
+              <span class="visually-hidden">  
+                Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navig-item">
+            <a class="navig-link" href="#">
+              <span class="visually-hidden">
+                Избранное
+              </span>
+            </a>
+          </li>
+          <li class="navig-item">
+            <a class="button" href="#">Хочу сюда</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="catalog-main">
+      <header class="catalog-header">
+        <h1 class="catalog-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <span class="visually-hidden">Главная</span>
+            <a class="breadcrumbs-link" href="index.html"><img class="breadcrumbs-icon" src="#"></a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостиницы</a>
+          </li>
+        </ul>
+      </header>
+      <section class="catalog-list">
+        <h2 class="visually-hidden">Фильтры</h2>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-item">Инфраструктура:</legend>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="pool" checked>
+              Бассейн
+            </label>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="parking" checked>
+              Парковка
+            </label>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="wi-fi">
+              Wi-Fi
+            </label>
+          </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-item">Тип Жилья:</legend>
+            <label class="control">
+              <input class="control-input" type="radio" name="hotel" checked>
+              Гостиница
+            </label>
+            <label class="control">
+              <input class="control-input" type="radio" name="motel">
+              Мотель
+            </label>
+            <label class="control">
+              <input class="control-input" type="radio" name="apartments">
+              Апартаменты
+            </label>
+          </fieldset>
+          <button class="button-2" type="submit">Применить</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
