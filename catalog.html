@@ -4,37 +4,37 @@
     <meta charset="utf-8">
     <title>Каталог</title>
   </head>
-  <body>
+  <body style="background-color: crimson;">
     <header class="header-main">
-      <img class="logo-mini" src="" alt="Мини логотип Седоны">
-      <nav class="navig">
-        <ul class="navig-list">
-          <li class="navig-item">
-            <a class="navig-link" href="index.html">Главная</a>
+      <a class="logo-mini-link" href="index.html"><img class="logo-mini" src="images/mini-logo.svg" alt="Мини логотип Седоны" width="140" height="70"></a>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
           </li>
-          <li class="navig-item">
-            <a class="navig-link" href="#">О нас</a>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О нас</a>
           </li>
-          <li class="navig-item">
-            <a class="navig-link navig-link-here" href="catalog.html">Гостиницы</a>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navig-list nav-user">
-          <li class="navig-item">
-            <a class="navig-link" href="#">
+        <ul class="navigation-list nav-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
               <span class="visually-hidden">  
                 Поиск
               </span>
             </a>
           </li>
-          <li class="navig-item">
-            <a class="navig-link" href="#">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
               <span class="visually-hidden">
                 Избранное
               </span>
             </a>
           </li>
-          <li class="navig-item">
+          <li class="navigation-item">
             <a class="button" href="#">Хочу сюда</a>
           </li>
         </ul>
@@ -45,8 +45,7 @@
         <h1 class="catalog-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <span class="visually-hidden">Главная</span>
-            <a class="breadcrumbs-link" href="index.html"><img class="breadcrumbs-icon" src="#"></a>
+            <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Гостиницы</a>
@@ -87,7 +86,7 @@
             </label>
           </fieldset>
           <button class="button" type="submit">Применить</button>
-          <button class="button" type="submit">Сбросить</button>
+          <button class="button" type="reset">Сбросить</button>
         </form>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
@@ -106,51 +105,51 @@
         <ul class="housing-list">
           <li class="housing-card">
             <a class="housing-card-link" href="#">
-              <img class="housing-card-img" src="#" alt="">
+              <img class="housing-card-img" src="images/hotel/hotel-1.jpg" alt="Гостиница 1" width="300" height="212">
               <h3 class="housing-card-title">Amara Resort & Spa</h3>
             </a>
             <span class="housing-card-type">Гостиница</span>
             <span class="housing-card-price">От 4000 ₽</span>
-            <a class="housing-card-button button" href="#">ПОДРОБНЕЕ</a>
-            <button class="housing-card-button button" type="submit">В ИЗБРАННОЕ</button>
-            <img class="housing-card-rating-icon" src="#" alt="Рейтинг 4 звезды">
-            <span class="housing-card-rating-text">РЕЙТИНГ: 8,5</span>
+            <a class="housing-card-button button" href="#">Подробнее</a>
+            <a class="housing-card-button button" href="#">В избранное</a>
+            <p class="star star-4"></p>
+            <span class="housing-card-rating-text">Рейтинг: 8,5</span>
           </li>
           <li class="housing-card">
             <a class="housing-card-link" href="#">
-              <img class="housing-card-img" src="#" alt="">
+              <img class="housing-card-img" src="images/hotel/hotel-2.jpg" alt="Гостиница 2" width="300" height="212">
               <h3 class="housing-card-title">Villas at Poco Diablo</h3>
             </a>
             <span class="housing-card-type">Гостиница</span>
             <span class="housing-card-price">От 5000 ₽</span>
-            <a class="housing-card-button button" href="#">ПОДРОБНЕЕ</a>
-            <button class="housing-card-button button" type="submit">В ИЗБРАННОЕ</button>
-            <img class="housing-card-rating-icon" src="#" alt="Рейтинг 4 звезды">
-            <span class="housing-card-rating-text">РЕЙТИНГ: 9,2</span>
+            <a class="housing-card-button button" href="#">Подробнее</a>
+            <a class="housing-card-button button" href="#">В избранное</a>
+            <p class="star star-4"></p>
+            <span class="housing-card-rating-text">Рейтинг: 9,2</span>
           </li>
           <li class="housing-card">
             <a class="housing-card-link" href="#">
-              <img class="housing-card-img" src="#" alt="">
+              <img class="housing-card-img" src="images/hotel/hotel-3.jpg" alt="Гостиница 3" width="300" height="212">
               <h3 class="housing-card-title">Desert Quail Inn</h3>
             </a>
             <span class="housing-card-type">Гостиница</span>
             <span class="housing-card-price">От 2500 ₽</span>
-            <a class="housing-card-button button" href="#">ПОДРОБНЕЕ</a>
-            <button class="housing-card-button button" type="submit">В ИЗБРАННОЕ</button>
-            <img class="housing-card-rating-icon" src="#" alt="Рейтинг 3 звезды">
-            <span class="housing-card-rating-text">РЕЙТИНГ: 6,9</span>
+            <a class="housing-card-button button" href="#">Подробнее</a>
+            <a class="housing-card-button button" href="#">В избранное</a>
+            <p class="star star-3"></p>
+            <span class="housing-card-rating-text">Рейтинг: 6,9</span>
           </li>
           <li class="housing-card">
             <a class="housing-card-link" href="#">
-              <img class="housing-card-img" src="#" alt="">
+              <img class="housing-card-img" src="images/hotel/hotel-4.jpg" alt="Гостиница 4" width="300" height="212">
               <h3 class="housing-card-title">GreenTree Inn</h3>
             </a>
             <span class="housing-card-type">Гостиница</span>
             <span class="housing-card-price">От 1500 ₽</span>
-            <a class="housing-card-button button" href="#">ПОДРОБНЕЕ</a>
-            <button class="housing-card-button button" type="submit">В ИЗБРАННОЕ</button>
-            <img class="housing-card-rating-icon" src="#" alt="Рейтинг 2 звезды">
-            <span class="housing-card-rating-text">РЕЙТИНГ: 5,0</span>
+            <a class="housing-card-button button" href="#">Подробнее</a>
+            <a class="housing-card-button button" href="#">В избранное</a>
+            <p class="star star-2"></p>
+            <span class="housing-card-rating-text">Рейтинг: 5,0</span>
           </li>
         </ul>
         <ul class="pagination">
@@ -175,11 +174,11 @@
         </ul>
       </section>
       <section class="subscribe-catalog">
-        <h2 class="search-intro">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+        <h2 class="search-intro">Подпишитесь на рассылку</h2>
           <p class="search-dercrip">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
             <input type="text" name="search-email" placeholder="Ваш e-mail">
-            <button class="button" type="submit">ПОДПИСАТЬСЯ</button>
+            <button class="button" type="submit">Подписаться</button>
           </form>
       </section>
     </main>
@@ -208,7 +207,7 @@
       </section>
       <section class="footer-htmlacademy">
         <a class="footer-htmlacademy-link" href="https://htmlacademy.ru/">
-          <img class="footer-htmlacademy-logo" src="#" alt="HTMLacademy">
+          <img class="footer-htmlacademy-logo" src="images/html-academy.svg" alt="HTMLacademy" width="114.9" height="32.9">
         </a>
       </section>
     </footer>
